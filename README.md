@@ -1,21 +1,8 @@
 # WebCrawler
 
-**TODO: Add description**
+- Basic web crawler in Elixir. Simple enough to be extendable.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `web_crawler` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:web_crawler, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/web_crawler>.
-
+1. Run the project `iex -S mix`
+2. Crawl the website you're interested in `WebCrawler.Crawler.crawl("https://your.favorite.website./", 2)`
+3. It will report how many links it has crawled in its adventures.
+4. Extend the app :)
